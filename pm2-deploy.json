@@ -1,0 +1,11 @@
+{
+    "apps": [
+        {
+            "name": "pm2-web",
+            "script": "/usr/local/bin/pm2-web",
+            "exec_mode": "fork_mode",
+            "instances": "1",
+            "log_date_format": "YYYY-MM-DD HH:mm:SS"
+        }
+    ]
+}
