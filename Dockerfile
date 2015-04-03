@@ -6,4 +6,4 @@ COPY pm2-deploy.json /pm2-deploy.json
 
 EXPOSE 9000
 
-CMD pm2 start /pm2-deploy.json && pm2 logs 
+CMD pm2 start --no-daemon pm2-deploy.json
